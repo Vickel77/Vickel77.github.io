@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Newest</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="BS/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="CSS/west_style.css">
+	<link rel="stylesheet" type="text/css" href="CSS/animations.css">
+	<link rel="stylesheet" type="text/css" href="CSS/media_queries.css">
+	<link rel="shortcut icon" type="image/png" href="PICS/favicon1.png"/>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="pastor-wrap" >
+				<nav class="col-md-12"> 
+					<div>
+					<ul class="topnav" id="myTopnav">
+						<LI onclick="home()"><a class="nav_home nav_home_ative" href="index.html">Home</a></LI>
+						<LI onclick="about()"><a class="nav_about" href="about_hoj.html">About</a></LI>
+						<LI onclick="portfolio()"><a class="nav_portfolio" href="portfolio_hoj.html">Sermons</a></LI>
+						<LI onclick="team()"><a class="nav_team" href="team_hoj.html">Pastors</a></LI>
+						<li class="icon" id="icon"><a href="javascript:void" onclick="nav_function()">&#9776;</a></li>
+					</ul>
+					</div>	
+				</nav>
+			<div class="xs_nav" id="xs_nav">
+						<span class="glyphicon glyphicons glyphicon-close"></span>
+						<ul>
+							<li><a href="index.html"> Home </a></li>
+							<li><a href="about_hoj.html">About</a></li>
+							<li><a href="portfolio_hoj.html">Sermons</a></li>
+							<li><a href="team_hoj.html">Pastors</a></li>
+						</ul>
+					</div>
+			<section>
+				<!-- SKEWED BGs -->
+					<div id="skew_bg4" class="content4 animate_skew">
+					</div>
+
+
+					<!-- <div  class="content_text">
+						<div id="txt4" class="animate_txt">
+							<div class="row">
+								<div class="col-md-3 team_sm">
+									<div class="team_txt"><p>General Manager</p></div>
+									<div class="team_container"><img class="team_sm_img" src="PICS/team_1.png"><div class="overlay_sm ol_1"><div class="tm_text"> John V. Mark</div></div></div>
+								</div>
+								<div class="col-md-3 team_sm">
+									<div class="team_txt"><p>CEO</p></div>
+									<div class="team_container"><img class="team_sm_img" src="PICS/team_5.jpg"><div class="overlay_sm ol_3"><div class="tm_tex">Cece Marvic</div></div></div>
+								</div>
+								<div class="col-md-3 team_sm">
+									<div class="team_txt"><p>Exective member</p></div>
+									<div class="team_container"><img class="team_sm_img" src="PICS/team.png"><div class="overlay_sm ol_2"><div class="tm_text">Joann Christian</div></div></div>
+								</div>
+							</div>
+							<button onclick="show_more_team()" class="btn_hm btn btn-primary">LEARN MORE</button>
+						</div>	
+					</div> -->
+			</section>
+
+			<section>
+
+
+				<div id="txt4_full">
+					
+					<div class="row pastors_cont">
+						<h2 class=" tm_header">PASTORS</h2>
+						<div class="col-md-3 pastors">
+
+							<img class="" src="PICS/hoj_pst6.png" width="100%" height="300">
+							<p>PST EMMA E <span>Associate Pastor</span></p>
+							<div class="serve">
+										<a href="#"><img class="smi" src="PICS/smi_fb.png" width="80" height="80"></a>
+										<a href="#"><img class="smi" src="PICS/smi_ig.png" width="80" height="80"></a>
+										<a href="#"><img class="smi" src="PICS/smi_tw.png" width="80" height="80"></a>
+										<!-- <li><a href="#">Gmail</a></li> -->
+									</div>
+						</div>
+						<div class="col-md-3 pastors">
+							<img class="" src="PICS/hoj_pst7.png" width="100%" height="300">
+							<p>PST EMMA E <span>Lead Pastor</span></p>
+							<div class="serve">
+										<a href="#"><img class="smi" src="PICS/smi_fb.png" width="80" height="80"></a>
+										<a href="#"><img class="smi" src="PICS/smi_ig.png" width="80" height="80"></a>
+										<a href="#"><img class="smi" src="PICS/smi_tw.png" width="80" height="80"></a>
+										<!-- <li><a href="#">Gmail</a></li> -->
+									</div>
+							
+						</div>
+						<div class="col-md-3 pastors">
+							<img class="" src="PICS/hoj_pst3.png" width="100%" height="300">
+							<p>PST EMMA E <span>Associate Pastor</span></p>
+							<div class="serve">
+										<a href="#"><img class="smi" src="PICS/smi_fb.png" width="80" height="80"></a>
+										<a href="#"><img class="smi" src="PICS/smi_ig.png" width="80" height="80"></a>
+										<a href="#"><img class="smi" src="PICS/smi_tw.png" width="80" height="80"></a>
+										<!-- <li><a href="#">Gmail</a></li> -->
+									</div>
+						</div>
+					</div>
+						<!-- <div class="divTable">
+							<div class="row tf_team_anim team_cont">
+								<div class="col-md-3 t_img_cont1">
+									<div class="title team_container"><img class="t_img1" src="PICS/team_1.png"><div class="overlay">
+										<div class="tm_text"> Takes care of compan jobs </div></div>
+									<div class="title_text"><h4>John V. Mark</h4> <br>Programmer</div>
+									</div>
+								</div>
+								<div class="col-md-3 team_sm t_img_cont3">
+									<div class="title team_container"><img class="t_img3" src="PICS/team_5.jpg"><div class="overlay">
+										<div class="tm_text">The Chief Executive Officer of the company,</div></div>
+									<div class="title_text"><h4>Cece Marvic</h4> <br>Supervisor</div>
+									</div>
+								</div>
+								<div class="col-md-3 t_img_cont2"> team_sm 
+									<div class="title team_container"><img class="t_img2" src="PICS/team.png"><div class="overlay">
+										<div class="tm_text"> Takes care of compan jobs </div></div>
+									<div class="title_text"><h4>Joann Christian</h4> <br>Designer</div>
+									</div>
+								</div>
+							</div>
+						</div> -->
+				</div>	
+			</section>
+		</div>
+
+
+		<!-- <section class="services">
+		<div class="serve_skew"></div>
+			<h2>OUR SERVICES</h2>
+			<div class="row serve bord1">
+				<div class="col-md-6 serv_op bord_r">
+					<span class="glyphicon glyphicons glyphicon-qrcode"></span>
+					<div class="serve_txt">
+						<h4>STATEGY</h4>
+						<p>
+							Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+						</p>
+					</div>
+				</div>
+				<div class="col-md-6 serv_op">
+					<span class="glyphicon glyphicons glyphicon-road"></span>
+					<div class="serve_txt">
+						<h4>DIRECTION</h4>
+						<p>
+						 	Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="row serve bord2">
+				<div class="col-md-6 serv_op bord_r">
+					<span class="glyphicon glyphicons glyphicon-fullscreen"></span>
+					<div class="serve_txt">
+						<h4>EXPLORE</h4>
+						<p>
+							Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+						</p>
+					</div>
+				</div>
+				<div class="col-md-6 serv_op">
+					<span class="glyphicon glyphicons glyphicon-stats"></span>
+					<div class="serve_txt">
+						<h4>EXPERTISE</h4>
+						<p>
+							Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section> -->
+
+
+	</div>	
+		<footer class="footer">
+				<div class="footer_skew up"></div>
+				<div class="row">
+					<div class="col-md-6 left_foot">
+						<div class="servef up">
+							<div class="get">
+								<h2 class="serve">Get in touch</h2>
+								<p class="serve">we hope you had an amazing 
+								  experience and <br>will like to get
+								  in touch with you</p>
+								  <ul class="contact serve">
+								  <h3 class="contact_h3">Contact Info</h3>
+								 <li><span class="glyphicon glyphicons glyphicon-map-marker foot_glyph"></span>FAVOR OF GOD ESTATE, SHELTER FARMS AVEMUE,<br>
+								KUBWA ABUJA.</li>
+								  <li><span class="glyphicon glyphicons glyphicon-phone foot_glyph"></span>+234 7063 015 683</li>
+								  <li><span class="glyphicon glyphicons glyphicon-envelope foot_glyph"></span>kelechialigwo77@gmail.com</li>
+								  <li><span class="glyphicon glyphicons glyphicon-globe foot_glyph"></span>vickel.co</li>
+								  </ul>
+
+							</div>
+							<ul class="serve">
+									<li><a href="index.html">HOME</a></li>
+									<li><a href="about_hoj.html">ABOUT</a></li>
+									<li><a href="portfolio_hoj.html">SERMONS</a></li>
+									<li><a href="team_hoj.html">PASTORS</a></li>
+									<!-- <li><a href="#">Gmail</a></li> -->
+								</ul>
+								<div class="serve">
+									<a href="#"><img class="smi" src="PICS/smi_fb.png"></a>
+									<a href="#"><img class="smi" src="PICS/smi_ig.png"></a>
+									<a href="#"><img class="smi" src="PICS/smi_tw.png"></a>
+									<!-- <li><a href="#">Gmail</a></li> -->
+								</div>
+							<form style="display:none;">
+								<h3>My To Do list</h3>
+								<input id="name" type="text" name="name" placeholder="New item">
+								<button type="button" id="add" class="btn btn-success">Add</button>
+								<div id="myList"></div>
+							</form>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="other_footer_wrap">
+									<form>
+									  <h3>Message Us</h3 class="serve">
+									  <input type="text" name="name" placeholder="name"><br>
+									  <input type="tel" name="number" placeholder="phone no"><br>
+									  <input type="email" name="email" for="email" placeholder="example@gmail.com" required><br>
+									  <textarea type="text" name="text" for="email" placeholder="message"></textarea><br>
+									  <button>send message</button>
+									 </form>
+								 <p class="other_footer class="serve""><br><br>&copy  2019 website.<br>
+								All Rights Reserved.<br>
+								Designed by vickel.co<br>
+								</p>
+						</div>
+					</div>
+				</div>
+				<a href="#top"><span class="glyphicon glyphicon-menu-up arrow_glyph"></span></a>
+			</footer>
+		<div class="div"></div>
+		<!-- <h2 class="section_h2_1">Home</h2>
+		<h2 class="section_h2_2">About</h2>
+		<h2 class="section_h2_3">Portfolio</h2>
+		<h2 class="section_h2_4">Team</h2> -->
+
+</body>
+
+<script type="text/javascript" src="JS/west.js">
+</script>
+ <script type="text/javascript">
+
+	$(function(){
+
+
+		// NAVIGATION
+
+		////////////////////////////////////////////////////////////////////////////////////////
+
+		//  FADEIN LEFT
+
+		
+		$('#slideshow > div:gt(0)').hide();
+			setInterval(function () {
+				$('#slideshow > div:first').fadeOut(1000).next().slideDown(1000).end().appendTo('#slideshow');
+			},5000);
+
+		$(window).scroll(function(){
+			$(".serve").each(function(i){
+				var windowBottom = $(window).scrollTop() + $(window).innerHeight();
+				var objectBottom = $(this).offset().top + $(this).outerHeight();
+				if (objectBottom < windowBottom) {
+					//$(this).animate({'opacity':'1','marginLeft':'0px'}, 1000);
+				
+				$('.serve_skew').animate({'opacity':'1','margin-left':'0px'},500);
+				$(this).fadeTo(500,1); 
+				}
+			});
+
+			// $(".up").each(function(i){
+			// 	var windowBottom = $(window).scrollTop() + $(window).innerHeight();
+			// 	var objectBottom = $(this).offset().top + $(this).outerHeight();
+			// 	if (objectBottom < windowBottom) {
+			// 		$(".up").fadeTo(1000,1);
+			// 	}
+			// });
+
+			
+			$(".other_footer").each(function(i){
+				var windowBottom = $(window).scrollTop() + $(window).innerHeight();
+				var objectBottom = $(this).offset().top + $(this).outerHeight();
+				if (objectBottom < windowBottom) {
+					$(this).animate({'opacity':'1','marginLeft':'0px'}, 1300);
+					
+				}
+			});
+
+			
+		});
+		
+
+
+		// TO DO LIST
+		$("#add").click(function(){
+			var val = $("#name").val();
+			if (val !== "") {
+				var elem = $("<li></li>").text(val);
+				$(elem).append(' <span class="btn btn-danger glyphicon glyphicon-trash"></span>');
+				$("#myList").append(elem);
+				$('input').val("");
+				$(".btn").on('click', function(){
+					$(this).removeClass('glyphicon-trash btn-danger');
+					$(this).addClass('glyphicon-ok');
+
+				});
+			};
+		});
+		//$('.overlay').slideUp(1000);
+		// $('.t_img1').on('mouseenter', function(){
+		// 	$('.ol_1').slideDown(100);
+		// });
+		// $('.t_img1').on('mouseleave', function(){
+		// 	$('.ol_1').slideUp(100);
+		// });
+
+		// DIMENSION
+		// var txt = "";
+		// txt +="width: " + $(".div").width()+"";
+		// txt +="height: " + $(".div").height()+"<br>";
+		// txt +="innerWidth: " + $(".div").innerWidth()+"";
+		// txt +="innerHeight:"+ $
+		// (".div").innerHeight()+"<br>";
+		// txt +="outerWidth:"+ $
+		// (".div").outerWidth()+"";
+		// txt +="outerHeight:"+ $
+		// (".div").outerHeight();
+
+		// $(".div").html(txt);
+
+
+
+	});
+
+	var b ='t';
+ function nav_function(){
+ 	var xs_nav = document.getElementById('xs_nav');
+ 	
+ 	if(b=='t'){
+ 		var xs_nav = document.getElementById('xs_nav');
+ 		var icon = document.getElementById('icon');
+ 		xs_nav.style.display='block';
+ 		b='c';
+ 	}
+ 	else {xs_nav.style.display='none';
+ 		b = 't';}
+ }
+
+</script>
+</html>
